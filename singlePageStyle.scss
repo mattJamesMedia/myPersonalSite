@@ -1,0 +1,11 @@
+@import "reset.scss";
+@import "_variables.scss";
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-image: url("../img/background.background.jpg");
+    background-size: cover;
+}
