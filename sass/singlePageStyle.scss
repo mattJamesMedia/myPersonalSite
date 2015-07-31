@@ -10,20 +10,22 @@ body {
   width: 100%;
   height: auto;
   background-color: black;
-  background-image: url("../img/homeBackground.jpg");
-  background-size: cover;
+  background-image: url("../img/homeBackgroundPortrait.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 #main {
   top: 0px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 header {
+  height: 6em;
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-family: $homeFont;
   background-color: black;
   padding: 1em 1em 1.5em 1em;
@@ -33,15 +35,22 @@ header {
   top: 0px;
   border-top: solid 5px $brandingColor;
   z-index: 1000;
-  h1 {
-    margin: 0 auto;
-  }
+  transition: top 0.4s ease-in-out;
+  ul.topNav {
+  display: flex;
+  justify-content: space-around;
+  margin: .5em .75em 0 .75em;
+  color: white;
+  font-family: $sansFont;
+  font-size: 1.5em;
+  width: 100%;
+}
 }
 
 h1,
 h2 {
   font: {
-    size: 2em;
+    size: 1.75em;
     family: $homeFont;
   }
 }
@@ -49,7 +58,7 @@ h2 {
 a {
   text-decoration: none;
   color: white;
-  &:hover {
+  &:hover &:active {
     text-decoration: underline;
   }
 }
@@ -59,101 +68,69 @@ a {
   padding-left: .5em;
 }
 
-.fa {
-  margin-right: 1em;
-  cursor: pointer;
-  transition: color 0.3s linear;
-}
-
-.fa-facebook-square {
-  &:hover {
-    color: $facebook;
-  }
-}
-
-.fa-twitter-square {
-  &:hover {
-    color: $twitter;
-  }
-}
-
-.fa-linkedin-square {
-  &:hover {
-    color: $linkedin;
-  }
-}
-
-.fa-google-plus-square {
-  &:hover {
-    color: $googleplus;
-  }
-}
-
-.fa-envelope-o {
-  &:hover {
-    color: $brandingColor;
-  }
-}
-
 img {
   width: 100%;
   height: auto;
 }
-
+.nav-up{
+  top: -6em;
+}
 .home {
   display: flex;
   justify-content: center;
   height: 100vh;
   .homeSection {
     width: 100%;
-    height: 15em;
-    margin-top: 35%;
+   
+    margin-top: 10%;
     padding: 0 .5em;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
+    align-items: center;
     h2 {
-      font-size: 2em;
-      margin-left: 20%;
       text-shadow: 1px 1px 5px darken($brandingColor, .9);
+    }
+    ul.topNav {
+      margin: .75em;
+      @include navStyle;
     }
     .description {
       padding: 1em 2em;
       margin: 0 auto;
       width: auto;
+      overflow: auto;
       @include boxStyle;
     }
   }
 }
-
+.navDown{
+  margin-top: auto;
+  margin-bottom: 1em;
+}
 .thin {
   font-family: $sansFont;
   text-transform: uppercase;
 }
 
-ul.topNav {
-  display: flex;
-  justify-content: space-between;
-  flex: 1 0 auto;
-  color: white;
-  font-family: $sansFont;
-  font-size: 1.5em;
-}
+
 
 //section content styles
 .gallery,
 .photo,
-.designThumbnail {
+.designThumbnail, .photoThumbnail {
   margin: 0 auto 2em auto;
   max-width: 60em;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  &.web {
-    align-content: space-between;
-  }
+  padding-right: 2em;
 }
-
+.gallery.web{
+  align-content: space-around;
+}
+.gallery h2{
+  margin: 0 auto;
+}
 .webBlock {
   flex: 1 0 100vw;
   padding: .75em;
@@ -162,9 +139,11 @@ ul.topNav {
     padding: .75em;
   }
 }
-
-.gallery {
-  height: 110vh;
+.photography{
+  height:46em;
+}
+.design{
+  height: 50em;
 }
 
 .photography,
@@ -174,54 +153,40 @@ ul.topNav {
   width: 100%;
   background-color: black;
   padding: 2em 0;
-  .thumbnail.photo, .designThumbnail {
+  .photoThumbnail, .designThumbnail {
     img {
-      margin: 0 0 .8em 1.5em;
+      margin: 0 0 .8em 2em;
       opacity: 0.6;
       background-color: white;
       transition: opacity 0.3s linear;
-      width: 8em;
-      height: 8em;
-      &:hover {
-        opacity: 1.0;
+      width: 4em;
+      height: 4em;
+      &:hover{
+        opacity: 0.9;
       }
     }
   }
 }
 
-.photography {
-  margin-top: 60em;
-}
-
-.design {
-  margin-top: 20em;
-}
-
 .feature,
 .designFeature {
   position: relative;
-  height: 75vh;
+  height: 65vh;
   img {
     background-color: white;
     position: absolute;
     left: 0;
     height: auto;
-    max-height: 700px;
+    max-height: 31.25em;
     width: 100%;
     order: 1;
   }
 }
-/*.feature img{
-  left: 20%;
-}
-.designFeature img{
-  left: 30%;
-}*/
 
 .bio,
 .relevantLinks {
   padding: 1em;
-  margin-left: 1em;
+   overflow: auto;
   @include boxStyle;
   h3 {
     padding-left: .5em;
@@ -233,13 +198,15 @@ ul.topNav {
     color: lighten($brandingColor, 0.2);
   }
 }
-
+.relevantLinks{
+  margin-top: 1em;
+}
 .personalInfo {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  height: 100vh;
-  margin: 25em 1em;
+  height: auto;
+  margin: 1em;
 }
 
 .bio {
@@ -262,63 +229,147 @@ ul.topNav {
 
 footer {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  flex-flow: wrap;
+  
   padding: 1.5em 1em;
   border-top: 5px solid $brandingColor;
   color: white;
   background-color: black;
+  p {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.socialLinks {
+  display: flex;
+  margin: 1em auto;
+}
+
+.icon {
+  flex: 1 0 10%;
+  margin-right: 1em;
+  cursor: pointer;
+  transition: fill 0.3s linear;
+  fill: white;
+}
+
+svg.fa {
+  &:hover {
+    fill: $facebook;
+  }
+}
+
+svg.tw {
+  &:hover {
+    fill: $twitter;
+  }
+}
+
+svg.li {
+  &:hover {
+    fill: $linkedin;
+  }
+}
+
+svg.gp {
+  &:hover {
+    fill: $googleplus;
+  }
+}
+
+svg.gh {
+  &:hover {
+    fill: $brandingColor;
+  }
+}
+
+svg.cp {
+  stroke: white;
+  &:hover {
+    stroke: $brandingColor;
+  }
 }
 /*------------------------------------------media queries---------------------*/
-
-@media screen and(min-width: 37em) {
+@media screen and (min-width: 30em){
+  footer {
+    p{
+    margin: 0 0 0 1em;
+  }
+  .socialLinks {
+    align-self: flex-end;
+    margin:0 0 0 auto;
+  }
+  }
+}
+@media screen and(min-width: 44em) {
+    body {
+    background-image: url("../img/homeBackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
   header {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
     h1 {
+      font-size: 2em;
       flex: 2 0 auto;
       margin-left: 1em;
     }
-  }
+
   ul.topNav {
     justify-content: space-around;
     margin-top: 1em;
-    padding: 0 1em;
-    flex: 1 0 auto;
+    
+    flex: 1 1 35%;
   }
+}
   .home {
     .homeSection {
+      width: 95%;
       margin-top: 15%;
-      width: 65%;
-      height: 10em;
+      align-items: center;
+      line-height: 2.5em;
       h2 {
-        font-size: 3.5em;
-        margin: 0 auto;
+        font-size: 2.5em;
+      }
+      ul.topNav{
+        font-size: 2em;
       }
     }
   }
-  .web {
-    height: 110vh;
-  }
+
+.gallery {
+  height: 60em;
+}
   .photography,
   .design {
     margin-top: 6em;
+    .photoThumbnail, .designThumbnail {
+      img {
+        width: 8em;
+        height: 8em;
+      }
+    }
   }
   .webBlock {
-    flex: 1 0 50%;
+   flex-basis: 50%;
   }
   .feature,
   .designFeature {
     img {
       left: 15%;
-      height: 32em;
-      max-height: 700px;
-      width: auto;
+      height: auto;
+      max-height: 34em;
+      width: 70%;
       order: 1;
     }
   }
+ 
   .personalInfo {
+    display: flex;
+    align-items: stretch;
     flex-direction: row;
     margin: 25em 1em;
   }
@@ -327,6 +378,39 @@ footer {
     flex: 1 0 48%;
   }
   .relevantLinks {
-    margin-right: 1em;
+    margin-top: 0;
+    margin-left: 1em;
+  }
+
+
+footer {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+}
+@media screen and(min-width: 53em) {
+
+  .home {
+    .homeSection {
+      width: 70%;
+      
+      h2 {
+        font-size: 3.5em;
+      }
+    }
+  }
+}
+@media screen and(min-width: 64em){
+ 
+  .gallery.design{
+    
+    min-height: 70em;
+  }
+  
+  .feature, .designFeature{
+    height: 70vh;
+    
   }
 }

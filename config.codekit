@@ -67,7 +67,16 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/blog\/_posts\/2015-06-29-salutations-globe.md": {
+	"\/blog\/_posts\/2015-06-30-salutations-globe.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/_posts\/2015-06-30-salutations-globe.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/_posts\/2015-06-30-salutations-globe.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -76,9 +85,39 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/_posts\/2015-06-29-salutations-globe.md",
+		"inputAbbreviatedPath": "\/blog\/_posts\/2015-06-30-salutations-globe.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/blog\/_posts\/2015-06-29-salutations-globe.html",
+		"outputAbbreviatedPath": "\/blog\/_posts\/2015-06-30-salutations-globe.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/blog\/_posts\/2015-07-13-performant-art.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/_posts\/2015-07-13-performant-art.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/_posts\/2015-07-13-performant-art.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/_posts\/2015-07-13-performant-art.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/blog\/_posts\/2015-07-13-performant-art.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -89,7 +128,7 @@
 		"useCompatibilityMode": 0
 		},
 	"\/blog\/_sass\/_base.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -105,7 +144,7 @@
 		"useLibsass": 1
 		},
 	"\/blog\/_sass\/_layout.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -121,7 +160,7 @@
 		"useLibsass": 1
 		},
 	"\/blog\/_sass\/_syntax-highlighting.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -137,7 +176,7 @@
 		"useLibsass": 1
 		},
 	"\/blog\/_sass\/_variables.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -153,7 +192,7 @@
 		"useLibsass": 1
 		},
 	"\/blog\/_sass\/reset.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -168,11 +207,20 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
-	"\/blog\/_site\/2015\/06\/29\/salutations-globe.html": {
+	"\/blog\/_site\/2015\/06\/30\/salutations-globe.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/_site\/2015\/06\/29\/salutations-globe.html",
+		"inputAbbreviatedPath": "\/blog\/_site\/2015\/06\/30\/salutations-globe.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/_site\/2015\/07\/13\/performant-art.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/_site\/2015\/07\/13\/performant-art.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -213,15 +261,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/blog\/_site\/jekyll\/update\/2015\/06\/29\/welcome-to-jekyll.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/_site\/jekyll\/update\/2015\/06\/29\/welcome-to-jekyll.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/blog\/about.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -244,7 +283,7 @@
 		"useCompatibilityMode": 0
 		},
 	"\/blog\/css\/main.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -260,7 +299,7 @@
 		"useLibsass": 1
 		},
 	"\/blog\/css\/singlePageStyle.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1248,6 +1287,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/critical.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/critical.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/ie.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1342,7 +1390,7 @@
 		"outputAbbreviatedPath": "\/img\/burningT.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/burningTBack.jpg": {
 		"fileType": 16384,
@@ -1353,7 +1401,7 @@
 		"outputAbbreviatedPath": "\/img\/burningTBack.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/burninT.jpg": {
 		"fileType": 16384,
@@ -1364,7 +1412,7 @@
 		"outputAbbreviatedPath": "\/img\/burninT.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/burninT.png": {
 		"fileType": 32768,
@@ -1377,6 +1425,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/burninT_TH-min.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4774,
+		"inputAbbreviatedPath": "\/img\/burninT_TH-min.png",
+		"outputAbbreviatedPath": "\/img\/burninT_TH-min.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/burninT_TH.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1386,7 +1445,7 @@
 		"outputAbbreviatedPath": "\/img\/burninT_TH.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/burninTBack.png": {
 		"fileType": 32768,
@@ -1398,6 +1457,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/burninTBack_TH-min.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5813,
+		"inputAbbreviatedPath": "\/img\/burninTBack_TH-min.png",
+		"outputAbbreviatedPath": "\/img\/burninTBack_TH-min.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/burninTBack_TH.png": {
 		"fileType": 32768,
@@ -1485,7 +1555,7 @@
 		"outputAbbreviatedPath": "\/img\/dustStairs.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/dustStairs@2x.jpg": {
 		"fileType": 16384,
@@ -1494,6 +1564,17 @@
 		"initialSize": 379108,
 		"inputAbbreviatedPath": "\/img\/dustStairs@2x.jpg",
 		"outputAbbreviatedPath": "\/img\/dustStairs@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/dustStairsTh-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4832,
+		"inputAbbreviatedPath": "\/img\/dustStairsTh-min.jpg",
+		"outputAbbreviatedPath": "\/img\/dustStairsTh-min.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1508,6 +1589,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/dutchtowFansTh-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4742,
+		"inputAbbreviatedPath": "\/img\/dutchtowFansTh-min.jpg",
+		"outputAbbreviatedPath": "\/img\/dutchtowFansTh-min.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/dutchtowFansTh.jpg": {
 		"fileType": 16384,
@@ -1529,7 +1621,7 @@
 		"outputAbbreviatedPath": "\/img\/dutchtownFans.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/dutchtownFans@2x.jpg": {
 		"fileType": 16384,
@@ -1540,7 +1632,7 @@
 		"outputAbbreviatedPath": "\/img\/dutchtownFans@2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/fansTDG.jpg": {
 		"fileType": 16384,
@@ -1563,6 +1655,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/fansTDGTh-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8375,
+		"inputAbbreviatedPath": "\/img\/fansTDGTh-min.jpg",
+		"outputAbbreviatedPath": "\/img\/fansTDGTh-min.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/fansTDGTh.jpg": {
 		"fileType": 16384,
@@ -1595,7 +1698,7 @@
 		"outputAbbreviatedPath": "\/img\/hermannNight.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/hermannNight@2x.jpg": {
 		"fileType": 16384,
@@ -1604,6 +1707,17 @@
 		"initialSize": 148399,
 		"inputAbbreviatedPath": "\/img\/hermannNight@2x.jpg",
 		"outputAbbreviatedPath": "\/img\/hermannNight@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/hermannNightTh-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4954,
+		"inputAbbreviatedPath": "\/img\/hermannNightTh-min.jpg",
+		"outputAbbreviatedPath": "\/img\/hermannNightTh-min.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1630,6 +1744,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/homeBackgroundPortrait.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95264,
+		"inputAbbreviatedPath": "\/img\/homeBackgroundPortrait.jpg",
+		"outputAbbreviatedPath": "\/img\/homeBackgroundPortrait.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/img\/lafayetteCorner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1648,6 +1773,17 @@
 		"initialSize": 135694,
 		"inputAbbreviatedPath": "\/img\/lafayetteCorner@2x.jpg",
 		"outputAbbreviatedPath": "\/img\/lafayetteCorner@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/lafayetteCornerTh-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8424,
+		"inputAbbreviatedPath": "\/img\/lafayetteCornerTh-min.jpg",
+		"outputAbbreviatedPath": "\/img\/lafayetteCornerTh-min.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1707,6 +1843,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/parkingMeterTh-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8445,
+		"inputAbbreviatedPath": "\/img\/parkingMeterTh-min.jpg",
+		"outputAbbreviatedPath": "\/img\/parkingMeterTh-min.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/parkingMeterTh.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1727,7 +1874,7 @@
 		"outputAbbreviatedPath": "\/img\/pelotonChurch.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/pelotonChurch@2x.jpg": {
 		"fileType": 16384,
@@ -1736,6 +1883,17 @@
 		"initialSize": 139761,
 		"inputAbbreviatedPath": "\/img\/pelotonChurch@2x.jpg",
 		"outputAbbreviatedPath": "\/img\/pelotonChurch@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/pelotonChurchTh-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5928,
+		"inputAbbreviatedPath": "\/img\/pelotonChurchTh-min.jpg",
+		"outputAbbreviatedPath": "\/img\/pelotonChurchTh-min.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1760,6 +1918,17 @@
 		"outputAbbreviatedPath": "\/img\/postcardV1Cycling.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/postcardV1Cycling_TH-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7562,
+		"inputAbbreviatedPath": "\/img\/postcardV1Cycling_TH-min.jpg",
+		"outputAbbreviatedPath": "\/img\/postcardV1Cycling_TH-min.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
 	"\/img\/postcardV1Cycling_TH.jpg": {
@@ -1782,7 +1951,7 @@
 		"outputAbbreviatedPath": "\/img\/profilePhoto.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/qMBibs.png": {
 		"fileType": 32768,
@@ -1806,6 +1975,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/qMBibs2_TH-min.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6232,
+		"inputAbbreviatedPath": "\/img\/qMBibs2_TH-min.png",
+		"outputAbbreviatedPath": "\/img\/qMBibs2_TH-min.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/qMBibs2_TH.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1813,6 +1993,17 @@
 		"initialSize": 9925,
 		"inputAbbreviatedPath": "\/img\/qMBibs2_TH.png",
 		"outputAbbreviatedPath": "\/img\/qMBibs2_TH.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/qMBibs_TH-min.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5347,
+		"inputAbbreviatedPath": "\/img\/qMBibs_TH-min.png",
+		"outputAbbreviatedPath": "\/img\/qMBibs_TH-min.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1826,7 +2017,7 @@
 		"outputAbbreviatedPath": "\/img\/qMBibs_TH.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/qMJersey1.png": {
 		"fileType": 32768,
@@ -1839,6 +2030,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/qMJersey1_TH-min.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4804,
+		"inputAbbreviatedPath": "\/img\/qMJersey1_TH-min.png",
+		"outputAbbreviatedPath": "\/img\/qMJersey1_TH-min.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/qMJersey1_TH.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1848,7 +2050,7 @@
 		"outputAbbreviatedPath": "\/img\/qMJersey1_TH.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/qMJersey2.png": {
 		"fileType": 32768,
@@ -1861,6 +2063,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/qMJersey2_TH-min.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4931,
+		"inputAbbreviatedPath": "\/img\/qMJersey2_TH-min.png",
+		"outputAbbreviatedPath": "\/img\/qMJersey2_TH-min.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/qMJersey2_TH.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1870,7 +2083,7 @@
 		"outputAbbreviatedPath": "\/img\/qMJersey2_TH.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/runBonneville.jpg": {
 		"fileType": 16384,
@@ -1905,6 +2118,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/runBonnevilleLogo_TH-min.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5086,
+		"inputAbbreviatedPath": "\/img\/runBonnevilleLogo_TH-min.png",
+		"outputAbbreviatedPath": "\/img\/runBonnevilleLogo_TH-min.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/runBonnevilleLogo_TH.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1914,7 +2138,7 @@
 		"outputAbbreviatedPath": "\/img\/runBonnevilleLogo_TH.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/sample_runbonnevile_logo_2.jpg": {
 		"fileType": 16384,
@@ -1947,7 +2171,18 @@
 		"outputAbbreviatedPath": "\/img\/seagalBibs2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/img\/seagalBibs2_TH-min.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3506,
+		"inputAbbreviatedPath": "\/img\/seagalBibs2_TH-min.png",
+		"outputAbbreviatedPath": "\/img\/seagalBibs2_TH-min.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/seagalBibs2_TH.png": {
 		"fileType": 32768,
@@ -1956,6 +2191,17 @@
 		"initialSize": 3661,
 		"inputAbbreviatedPath": "\/img\/seagalBibs2_TH.png",
 		"outputAbbreviatedPath": "\/img\/seagalBibs2_TH.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/seagalBibs_TH-min.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5663,
+		"inputAbbreviatedPath": "\/img\/seagalBibs_TH-min.png",
+		"outputAbbreviatedPath": "\/img\/seagalBibs_TH-min.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1969,7 +2215,7 @@
 		"outputAbbreviatedPath": "\/img\/seagalBibs_TH.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/seagalJersey1.png": {
 		"fileType": 32768,
@@ -1982,6 +2228,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/seagalJersey1_TH-min.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4499,
+		"inputAbbreviatedPath": "\/img\/seagalJersey1_TH-min.png",
+		"outputAbbreviatedPath": "\/img\/seagalJersey1_TH-min.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/seagalJersey1_TH.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1991,7 +2248,7 @@
 		"outputAbbreviatedPath": "\/img\/seagalJersey1_TH.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/seagalJersey2.png": {
 		"fileType": 32768,
@@ -2004,6 +2261,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/seagalJersey2_TH-min.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4784,
+		"inputAbbreviatedPath": "\/img\/seagalJersey2_TH-min.png",
+		"outputAbbreviatedPath": "\/img\/seagalJersey2_TH-min.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/seagalJersey2_TH.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2013,7 +2281,7 @@
 		"outputAbbreviatedPath": "\/img\/seagalJersey2_TH.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/sedalia.jpg": {
 		"fileType": 16384,
@@ -2036,6 +2304,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/sedalieTh-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3621,
+		"inputAbbreviatedPath": "\/img\/sedalieTh-min.jpg",
+		"outputAbbreviatedPath": "\/img\/sedalieTh-min.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/sedalieTh.jpg": {
 		"fileType": 16384,
@@ -2068,7 +2347,7 @@
 		"outputAbbreviatedPath": "\/img\/trackBikes.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/trackBikes@2x.jpg": {
 		"fileType": 16384,
@@ -2077,6 +2356,17 @@
 		"initialSize": 344102,
 		"inputAbbreviatedPath": "\/img\/trackBikes@2x.jpg",
 		"outputAbbreviatedPath": "\/img\/trackBikes@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/trackBikesTh-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6547,
+		"inputAbbreviatedPath": "\/img\/trackBikesTh-min.jpg",
+		"outputAbbreviatedPath": "\/img\/trackBikesTh-min.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2113,6 +2403,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/twBarrierTh-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8192,
+		"inputAbbreviatedPath": "\/img\/twBarrierTh-min.jpg",
+		"outputAbbreviatedPath": "\/img\/twBarrierTh-min.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/twBarrierTh.jpg": {
 		"fileType": 16384,
@@ -2177,7 +2478,7 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/sass\/_variables.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2192,8 +2493,24 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
-	"\/sass\/ie.scss": {
+	"\/sass\/critical.scss": {
 		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/critical.scss",
+		"outputAbbreviatedPath": "\/css\/critical.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/sass\/ie.scss": {
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2209,7 +2526,7 @@
 		"useLibsass": 1
 		},
 	"\/sass\/print.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2225,7 +2542,7 @@
 		"useLibsass": 1
 		},
 	"\/sass\/reset.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2241,7 +2558,7 @@
 		"useLibsass": 1
 		},
 	"\/sass\/screen.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2257,7 +2574,7 @@
 		"useLibsass": 1
 		},
 	"\/sass\/singlePageStyle.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2267,13 +2584,13 @@
 		"outputAbbreviatedPath": "\/css\/singlePageStyle.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
 	"\/sass\/style.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2289,7 +2606,7 @@
 		"useLibsass": 1
 		},
 	"\/singlePageStyle.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2964,7 +3281,7 @@
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
 	"sassAutoOutputPathStyle": 2,
-	"sassCreateSourceMap": 0,
+	"sassCreateSourceMap": 1,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
 	"sassOutputStyle": 1,

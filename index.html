@@ -6,85 +6,97 @@
     <meta name="descriptiom" content="A multimedia professional with expertise in interactive design and development, photography and copy writing">
     <meta name="keywords" content="matt james web development web design photography interactive design">
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300|Merriweather|Montserrat:700' rel='stylesheet' type='text/css'>
-   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/singlePageStyle.css">
-    <script src="bower_components/jQuery/dist/jquery.min.js"></script>
     <title>Matt James Media | Design and Development</title>
 </head>
 <body>
      <div id="main" role="main">
-        <header>
+        <header class="nav-up">
            <h1><a href="#">Matt James <span class="thin">Media</span></a></h1>
                <ul class="topNav" role="nav">
                 <li><a href="#web">web</a></li>
                 <li><a href="#photography">photo</a></li>
                 <li><a href="#design">design</a></li>
                 <li><a href="blog/_site/index.html">write</a></li>
+                 <li><a href="#info">about</a></li>
               </ul>
         </header>
        <div class="pages">
        <section class="home">
-         <div class="homeSection">
-         <h2>Matt James <span class="thin">Media</span></h2>
-         <ul class="topNav" role="nav">
-                <li><a href="#web">web</a></li>
-                <li><a href="#photography">photo</a></li>
-                <li><a href="#design">design</a></li>
-                <li><a href="#write">write</a></li>
-              </ul>
-                <div class="description">
-            <p>An interactive media professional pushing pixels, capturing images and bending vectors. </p>
-          </div>
-          </div>
-        
-       </section>
-        <section id="web">
-         <div class="gallery web">
-               <div class="webBlock"><img src="img/cwSummit.jpg" width="400px" height="auto"><p>Custom WordPress child theme. HTML5, CSS3, PHP</p></div>
-               <div class="webBlock"><img src="img/duffs.jpg" width="400px" height="auto"><p>Custom Wordpress theme. HTML, CSS</p></div>
-               <div class="webBlock"><img src="img/runBonneville.jpg" width="400px" height="auto"><p>WordPress child theme. CSS3</p></div>
-               <div class="webBlock"><img src="img/catCountryRun.jpg" width="400px" height="auto"><p>WordPress, CSS3</p></div>
-          </div>
+  <div class="homeSection">
+    <h2>Matt James <span class="thin">Media</span></h2>
+    <ul class="topNav" role="nav">
+      <li><a href="#web">web</a></li>
+      <li><a href="#photography">photo</a></li>
+      <li><a href="#design">design</a></li>
+      <li><a href="blog/_site/index.html">write</a></li>
+      <li><a href="#info">about</a></li>
+    </ul>
+    <article class="description">
+      An interactive media professional pushing pixels, capturing images and bending vectors.
+    </article>
+
+
+    <div class="navDown">
+      <a href="#next">
+        <svg class="icon down" viewBox="0 0 10 10"  width="50" , height="50">
+          <use xlink:href="#icon-circle-down" />
+        </svg>
+      </a>
+    </div>
+  </div>
+
+
+
+</section>
+        <div id="next"></div>
+        <section id="web" class="gallery web">
+         
+               <div class="webBlock"><a href="http://www.proxccx.com" target="_blank"><img src="img/cwSummit.jpg" alt="Cushman Wakefield Summit property listing template page" ></a><p>Custom WordPress child theme. HTML5, CSS3, PHP</p></div>
+               <div class="webBlock"><a href="http://www.duffsrestaurant.com" target="_blank"><img src="img/duffs.jpg" alt="Duff's Restaurant website"></a><p>Custom Wordpress theme. HTML, CSS</p></div>
+               <div class="webBlock"><a href="http://runbonneville.com" target="_blank"><img src="img/runBonneville.jpg" alt="Run Bonneville event site"></a><p>WordPress child theme. CSS3</p></div>
+               <div class="webBlock"><a href="http://catcountryrun.com" target="_blank"><img src="img/catCountryRun.jpg" alt="Cat Country Run event site"></a><p>WordPress, CSS3</p></div>
+         
         </section>
         <section id="photography" class= "gallery photography">
             <div class="feature"></div>
-             <div class= "thumbnail photo">
-              <a href="img/hermannNight.jpg" rel="img/hermannNight@2x.jpg"><img src="img/hermannNightTh.jpg" width="70" height="70" alt="Hermann Night Cyclocross"></a>
-              <a href="img/dustStairs.jpg" rel="img/dustStairs@2x.jpg"><img src="img/dustStairsTh.jpg" width="70" height="70" alt="Dogfish racer at Hermann Night race"></a>
-              <a href="img/fansTDG.jpg" rel="fansTDG@2x.jpg"><img src="img/fansTDGTh.jpg" date="landscape" alt="Fans at the Tour de Grove"></a>
-              <a href="img/trackBikes.jpg" rel="img/trackBike@2x.pg"><img src="img/trackBikesTh.jpg"  class="square" alt="track bikes at Penrose Park"></a>
-              <a href="img/sedalia.jpg" rel="img/sedalia@2x.jpg"><img src="img/sedalieTh.jpg" data="landscape" alt="a lone rider in sedalia, MO"></a>
-              <a href="img/lafayetteCorner.jpg" rel="img/lafayetteCorner@2x.jpg"><img src="img/lafayetteCornerTh.jpg" widht="70 height=70" alt="racers take a corner at speed"></a>
-              <a href="img/dutchtownFans.jpg" rel="img/dutchtownFans@2x.jpg"><img src="img/dutchtowFansTh.jpg" data="portrait" alt="fans clapping for the breakaway"></a>
-              <a href="img/pelotonChurch.jpg" rel="img/pelotonChurch@2x.jpg"><img src="img/pelotonChurchTh.jpg" data="square" alt="the peloton in front of a cathedral"></a>
-              <a href="img/parkingMeter.jpg" rel="img/parkingMeter@2x.jpg"><img src="img/parkingMeterTh.jpg" data="landscape" alt="bike race in front of parking meter"></a>
-              <a href="img/twBarrier.jpg" rel="img/twBarrier@2x.jpg"><img src="img/twBarrierTh.jpg" data="landscape" alt="todd wells bunny hopping a barrier">
+             <div class= "photoThumbnail">
+              <a href="img/hermannNight.jpg" rel="img/hermannNight@2x.jpg"><img src="img/hermannNightTh-min.jpg" width="70" height="70" alt="Hermann Night Cyclocross"></a>
+              <a href="img/dustStairs.jpg" rel="img/dustStairs@2x.jpg"><img src="img/dustStairsTh-min.jpg" width="70" height="70" alt="Dogfish racer at Hermann Night race"></a>
+              <a href="img/fansTDG.jpg" rel="img/fansTDG@2x.jpg"><img src="img/fansTDGTh-min.jpg" date="landscape" alt="Fans at the Tour de Grove"></a>
+              <a href="img/trackBikes.jpg" rel="img/trackBikes@2x.jpg"><img src="img/trackBikesTh-min.jpg"  class="square" alt="track bikes at Penrose Park"></a>
+              <a href="img/sedalia.jpg" rel="img/sedalia@2x.jpg"><img src="img/sedalieTh-min.jpg" data="landscape" alt="a lone rider in sedalia, MO"></a>
+              <a href="img/lafayetteCorner.jpg" rel="img/lafayetteCorner@2x.jpg"><img src="img/lafayetteCornerTh-min.jpg" widht="70 height=70" alt="racers take a corner at speed"></a>
+              <a href="img/dutchtownFans.jpg" rel="img/dutchtownFans@2x.jpg"><img src="img/dutchtowFansTh-min.jpg" data="portrait" alt="fans clapping for the breakaway"></a>
+              <a href="img/pelotonChurch.jpg" rel="img/pelotonChurch@2x.jpg"><img src="img/pelotonChurchTh-min.jpg" data="square" alt="the peloton in front of a cathedral"></a>
+              <a href="img/parkingMeter.jpg" rel="img/parkingMeter@2x.jpg"><img src="img/parkingMeterTh-min.jpg" data="landscape" alt="bike race in front of parking meter"></a>
+              <a href="img/twBarrier.jpg" rel="img/twBarrier@2x.jpg"><img src="img/twBarrierTh-min.jpg" data="landscape" alt="todd wells bunny hopping a barrier">
               </a>
-            </div><!--#gallery.photo-->
+            </div><!--.gallery.photo-->
             
         </section>
         <section id="design" class="gallery design">
           <div class="designFeature"></div>
            <div class="designThumbnail">
-            <a href="img/seagalJersey1.png"><img src="img/seagalJersey1_TH.png" width="70" height="70"></a>
-            <a href="img/seagalBibs.png"><img src="img/seagalBibs_TH.png"></a>
-            <a href="img/burninT.jpg"><img src="img/burninT_TH.png"></a>
-            <a href="img/burninTBack.gif"><img src="img/burninTBack_TH.png"></a>
-            <a href="img/qMJersey1.png"><img src="img/qMJersey1_TH.png"></a>
-            <a href="img/qMBibs.png"><img src="img/qMBibs_TH.png"></a>
-            <a href="img/runBonnevilleLogo.png"><img src="img/runBonnevilleLogo_TH.png"></a>
-            <a href="img/seagalJersey2.png" ><img src="img/seagalJersey2_TH.png"></a>
-            <a href="img/seagalBibs2.png"><img src="img/seagalBibs2_TH.png"></a>
-            <a href="img/qMJersey2.png"><img src="img/qMJersey2_TH.png"></a>
-            <a href="img/qMBibs2.png"><img src="img/qMBibs2_TH.png" ></a>
-            <a href="img/postcardV1Cycling.jpg"><img src="img/postcardV1Cycling_TH.jpg"></a>
+            <a href="img/seagalJersey1.png"><img src="img/seagalJersey1_TH-min.png" width="70" height="70"></a>
+            <a href="img/seagalBibs.png"><img src="img/seagalBibs_TH-min.png"></a>
+            <a href="img/burninT.jpg"><img src="img/burninT_TH-min.png"></a>
+            <a href="img/burninTBack.gif"><img src="img/burninTBack_TH-min.png"></a>
+            <a href="img/qMJersey1.png"><img src="img/qMJersey1_TH-min.png"></a>
+            <a href="img/qMBibs.png"><img src="img/qMBibs_TH-min.png"></a>
+            <a href="img/runBonnevilleLogo.png"><img src="img/runBonnevilleLogo_TH-min.png"></a>
+            <a href="img/seagalJersey2.png" ><img src="img/seagalJersey2_TH-min.png"></a>
+            <a href="img/seagalBibs2.png"><img src="img/seagalBibs2_TH-min.png"></a>
+            <a href="img/qMJersey2.png"><img src="img/qMJersey2_TH-min.png"></a>
+            <a href="img/qMBibs2.png"><img src="img/qMBibs2_TH-min.png" ></a>
+            <a href="img/postcardV1Cycling.jpg"><img src="img/postcardV1Cycling_TH-min.jpg"></a>
           </div>
           </section>
-        <section  class="personalInfo">
+        <section id="info" class="personalInfo">
           <article class="bio">
             <img src="img/profilePhoto.png">
-            <p>My name is Matt James and I have followed a long and circuitous path to come to the point that I am at today. I have been involved in media communications for over twenty years and began my foray into interactive media and design a little over five years ago. When I'm not developing websites, designing and photographing for local startups or recording my thoughts, I can be found chasing kids, riding bikes and playing outside.<br>
-          <span class="alignRight"> Contact me at <a href="mailto:mattjamesmedia@gmail.com">mattjamesmedia@gmail.com</a></span></p>
+            My name is Matt James and I have followed a long and circuitous path to come to the point that I am at today. I have been involved in media communications for over twenty years and began my foray into interactive media and design a little over five years ago. When I'm not developing websites, designing and photographing for local startups or recording my thoughts, I can be found chasing kids, riding bikes and playing outside.<br><br>
+          <span class="alignRight"> Contact me at <a href="mailto:mattjamesmedia@gmail.com">mattjamesmedia@gmail.com</a></span>
           </article>
           <article class="relevantLinks">
             <h3>Links to some work that I've done:</h3>
@@ -95,20 +107,40 @@
               <li>My coverage of the<a href="http://www.cyclingnews.com/races/gateway-cup-2014" target="_blank"> 2014 Gateway Cup on cyclingnews.com</a></li>
               <li>My article in<a href="Freehub_StLouis.pdf"> Freehub Magazine on the Greensfeld trail system (PDF)</a></li>
             </ul>
-          </article>
+          </article>  
         </section> 
         <section id="writtten"></section>  
        </div>
     </div>
-    <footer>
+    <footer class="footer">
       <p>Copyright © <script>document.write(new Date().getFullYear());</script> Matt James.</p>
-      <section class="socialLinks">
-      <i class="fa fa-envelope-o fa-3x"></i>
-      <i class="fa fa-facebook-square fa-3x"></i>
-      <i class="fa fa-twitter-square fa-3x"></i>
-      <i class="fa fa-linkedin-square fa-3x"></i>
-      <i class="fa fa-google-plus-square fa-3x"></i></section>
+      <span class="socialLinks">
+      <a href= "https://www.facebook.com/Matteblackmedia?ref=hl"><svg class="icon fa" viewBox="0 0 10 10" width="50", height="50">
+  <use xlink:href="#icon-facebook2" />
+</svg></a>
+         <a href="https://twitter.com/mfrancisj"><svg class="icon tw" viewBox="0 0 10 10" width="50", height="50">
+  <use xlink:href="#icon-twitter2" />
+</svg></a>
+           <a href="https://www.linkedin.com/in/matthewfjames"><svg class="icon li" viewBox="0 0 10 10" width="50", height="50">
+  <use xlink:href="#icon-linkedin" />
+</svg></a>
+              <!--<svg class="icon gp" viewBox="0 0 10 10" width="50", height="50">
+  <use xlink:href="#icon-google-plus2" />
+</svg>-->
+              <a href="https://github.com/mattJamesMedia?tab=repositories"><svg class="icon gh" viewBox="0 0 10 10" width="50", height="50">
+  <use xlink:href="#icon-github4" />
+                </svg></a>   
+               <!--<svg class="icon cp" viewBox="0 0 10 10" width="50", height="50">
+  <use xlink:href="icon-codepen" />
+</svg> -->
+     </span>
     </footer>
- <script type="text/javascript" src="js/personalSite.js"></script>   
+    <script src="bower_components/jQuery/dist/jquery.min.js"></script>
+ <script type="text/javascript" src="js/min/personalSite-min.js"></script> 
+<script>$.get("svgdefs.svg", function(data) {
+  var div = document.createElement("div");
+  div.innerHTML = new XMLSerializer().serializeToString(data.documentElement);
+  document.body.insertBefore(div, document.body.childNodes[0]);
+});</script>
 </body>
 </html>

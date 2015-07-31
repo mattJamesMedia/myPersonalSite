@@ -1,13 +1,34 @@
 $(document).ready(function () {
-  $('header').hide();
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 200) {
-      $('header').slideDown();
-    } else if ($(this).scrollTop() <= 200) {
-      $('header').slideUp();
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('header').outerHeight();
+
+$(window).scroll(function () {
+  didScroll = true;
+});
+
+setInterval(function () {
+  if (didScroll) {
+    hasScrolled();
+    didScroll = false;
+  }
+}, 500);
+
+function hasScrolled() {
+  var st = $(this).scrollTop();
+  if (Math.abs(lastScrollTop - st) <= delta)
+    return;
+  if (st > lastScrollTop && st > navbarHeight) {
+    $('header').removeClass('nav-up').addClass('nav-down');
+  } else {
+    if (st + $(window).height() < $(document).height()) {
+      $('header').removeClass('nav-down').addClass('nav-up');
     }
-  });
-  $('.thumbnail a').click(function (evt) {
+  }
+  lastScrollTop = st;
+}
+  $('.photoThumbnail a').click(function (evt) {
     evt.preventDefault();
     var imgPath = $(this).attr('href');
     var hiResImgPath = $(this).attr('rel');
@@ -22,7 +43,7 @@ $(document).ready(function () {
 
     });
   });
-  $('.thumbnail a:first').click();
+  $('.photoThumbnail a:first').click();
   
     $('.designThumbnail a').click(function (evt) {
     evt.preventDefault();
@@ -40,36 +61,17 @@ $(document).ready(function () {
   });
   $('.designThumbnail a:first').click();
  
-  function filterPath(string) {
-    return string
-      .replace(/^\//, '')
-      .replace(/(index|default).[a-zA-Z]{3,4}$/, '')
-      .replace(/\/$/, '');
-  }
-  $('a[href*=#]').each(function () {
-    if (filterPath(location.pathname) == filterPath(this.pathname) && location.hostname == this.hostname && this.hash.replace(/#/, '')) {
-      var $targetId = $(this.hash),
-        $targetAnchor = $('[name=' + this.hash.slice(1) + ']');
-      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
-      if ($target) {
-        var targetOffset = $target.offset().top;
-        $(this).click(function () {
-          $('html, body').animate({
-            scrollTop: targetOffset
-          }, 1000);
-          var d = document.createElement("div");
-          d.style.height = "101%";
-          d.style.overflow = "hidden";
-          document.body.appendChild(d);
-          window.scrollTo(0, scrollToM);
-          setTimeout(function () {
-            d.parentNode.removeChild(d);
-          }, 10);
-          return false;
-        });
-      }
-    }
+   $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
   });
-});
-/*! Smooth Scroll - v1.4.5 - 2012-07-22
- * Copyright (c) 2012 Karl Swedberg; Licensed MIT, GPL */

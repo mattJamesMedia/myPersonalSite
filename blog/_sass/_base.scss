@@ -14,12 +14,13 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
+    font-family: $serifFont;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-color: $background-color;
+    background-color: black;
+    color: white;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -81,6 +82,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
+    font-family: $sansFont;
 }
 
 
@@ -89,17 +91,23 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $brandingColor;
     text-decoration: none;
 
-    &:visited {
+   /* &:visited {
         color: darken($brand-color, 15%);
-    }
+    }*/
 
     &:hover {
-        color: $text-color;
+        
         text-decoration: underline;
     }
+  &.site-title{
+  color: white;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
 }
 
 
@@ -154,7 +162,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+ 
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
