@@ -142,3 +142,15 @@ img {
     }
   }
 }
+@media screen and(min-width: 53em) {
+
+  .home {
+    .homeSection {
+      width: 70%;
+      
+      h2 {
+        font-size: 3.5em;
+      }
+    }
+  }
+}

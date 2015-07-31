@@ -186,7 +186,7 @@ img {
 .bio,
 .relevantLinks {
   padding: 1em;
-   overflow: auto;
+  overflow: auto;
   @include boxStyle;
   h3 {
     padding-left: .5em;
@@ -237,7 +237,6 @@ footer {
   background-color: black;
   p {
     margin: 0 auto;
-    display: block;
   }
 }
 
@@ -291,12 +290,13 @@ svg.cp {
   }
 }
 /*------------------------------------------media queries---------------------*/
-@media screen and (min-width: 30em){
-  footer {
+@media screen and (min-width: 29em){
+  footer{
     p{
-    margin: 0 0 0 1em;
-  }
-  .socialLinks {
+      margin-left: 1em;
+      display: block;
+    }
+    .socialLinks {
     align-self: flex-end;
     margin:0 0 0 auto;
   }
@@ -387,7 +387,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
+
 }
 }
 @media screen and(min-width: 53em) {
