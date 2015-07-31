@@ -126,7 +126,7 @@ img {
   padding-right: 2em;
 }
 .gallery.web{
-  align-content: space-around;
+  align-content: center;
 }
 .gallery h2{
   margin: 0 auto;
@@ -299,15 +299,14 @@ svg.cp {
     .socialLinks {
     align-self: flex-end;
     margin:0 0 0 auto;
+   }
   }
-  }
+  .design{
+  height: 55em;
+ }
 }
 @media screen and(min-width: 44em) {
-    body {
-    background-image: url("../img/homeBackground.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-  }
+    
   header {
     flex-direction: row;
     justify-content: space-between;
@@ -354,7 +353,7 @@ svg.cp {
     }
   }
   .webBlock {
-   flex-basis: 50%;
+   flex-basis: 32%;
   }
   .feature,
   .designFeature {
@@ -391,7 +390,11 @@ footer {
 }
 }
 @media screen and(min-width: 53em) {
-
+body {
+    background-image: url("../img/homeBackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
   .home {
     .homeSection {
       width: 70%;

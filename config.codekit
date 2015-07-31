@@ -67,15 +67,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/blog\/_posts\/2015-06-30-salutations-globe.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/_posts\/2015-06-30-salutations-globe.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/blog\/_posts\/2015-06-30-salutations-globe.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -96,15 +87,6 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
-		},
-	"\/blog\/_posts\/2015-07-13-performant-art.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/_posts\/2015-07-13-performant-art.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/blog\/_posts\/2015-07-13-performant-art.md": {
 		"criticStyle": 0,
@@ -1502,6 +1484,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/cssZen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27728,
+		"inputAbbreviatedPath": "\/img\/cssZen.jpg",
+		"outputAbbreviatedPath": "\/img\/cssZen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/img\/cwSummit.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1678,6 +1671,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/firstClearingLLC.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19356,
+		"inputAbbreviatedPath": "\/img\/firstClearingLLC.jpg",
+		"outputAbbreviatedPath": "\/img\/firstClearingLLC.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/img\/God-Save-The-BURNIN.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1798,6 +1802,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/mattjamesmedia.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7800,
+		"inputAbbreviatedPath": "\/img\/mattjamesmedia.jpg",
+		"outputAbbreviatedPath": "\/img\/mattjamesmedia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/natural_paper.png": {
 		"fileType": 32768,
@@ -3268,7 +3283,7 @@
 	"markdownEnableSmartQuotes": 1,
 	"markdownEscapeLineBreaks": 0,
 	"markdownMaskEmailAddresses": 1,
-	"markdownOutputFormat": 0,
+	"markdownOutputFormat": 9,
 	"markdownOutputStyle": 0,
 	"markdownParseMetadata": 1,
 	"markdownProcessHTML": 0,

@@ -105,11 +105,7 @@ img {
   text-transform: uppercase;
 }
 @media screen and(min-width: 44em) {
-    body {
-    background-image: url("../img/homeBackground.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-  }
+
   header {
     flex-direction: row;
     justify-content: space-between;
@@ -143,7 +139,11 @@ img {
   }
 }
 @media screen and(min-width: 53em) {
-
+    body {
+    background-image: url("../img/homeBackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
   .home {
     .homeSection {
       width: 70%;
