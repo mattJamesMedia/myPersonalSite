@@ -1968,6 +1968,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/profilePhoto2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17858,
+		"inputAbbreviatedPath": "\/img\/profilePhoto2.png",
+		"outputAbbreviatedPath": "\/img\/profilePhoto2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/img\/qMBibs.png": {
 		"fileType": 32768,
 		"ignore": 0,

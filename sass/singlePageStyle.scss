@@ -58,7 +58,7 @@ h2 {
 a {
   text-decoration: none;
   color: white;
-  &:hover &:active {
+  &:hover, &:active {
     text-decoration: underline;
   }
 }
