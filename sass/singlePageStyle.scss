@@ -353,7 +353,8 @@ svg.cp {
     }
   }
   .webBlock {
-   flex-basis: 32%;
+   flex-basis: auto;
+   width: 32%;
   }
   .feature,
   .designFeature {
