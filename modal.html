@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+  .modalBack {
+  display: none;
+  width: 100%;
+  height: 400vh;
+  background-color: rgba(0,0,0,.6);
+  position: absolute;
+  z-index: 500
+}
+body.modalActive {
+  overflow: hidden;
+}
+.modalBack {
+  display: block;
+}
+.modalInner {
+  display: none;
+  background-color: #fff;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+/*@media screen and (min-width: 62.5rem){
+  .modalInner{
+  	margin-top: 30vh;
+  }
+}*/
+.modalActive .modalInner {
+  display: block;
+}
+.modalInner h1.h-topHeading {
+  margin: 1rem 0 .5rem 0;
+  font-size: 1.8em;
+  display:inline-block;
+}
+/*.modalInner h1.h-topHeading:focus{
+  outline: none;
+}*/
+.modalTop {
+  border-bottom: 1px solid black;
+  padding: 1.5em;
+}
+.modalTop img{
+  display: inline;
+  margin: 0;
+}
+.modalBottom {
+  margin-collapse: collapse;
+  padding: 0 1.5em 1.5em 1.5em;
+  position: relative;
+}
+.modalBottom ul {
+  margin-bottom: 0;
+}
+.modalLink{
+  position: static;
+  display: inline-block;
+  margin-top: 1em;
+}
+@media screen and (min-width: 50.3125rem){
+  .modalLink {
+    position: absolute;
+  	display: inline;
+  	margin-top: 0;
+    bottom: 1.5em;
+    right: 1.5em;
+  }
+}
+.modalClose{
+  float: right;
+  padding: 0;
+}
+.modalClose .close{
+  margin: 0 28% 5% 0;
+}
+  </style>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+  <script>
+  function enableModal() {
+	$("body").addClass("modalActive");
+	$('.page').attr('aria-hidden', 'true');
+	$('#exitLink').attr('disabled', 'true');
+	//$("#newModal").attr("aria-hidden", "false");
+	$("#newModal").keydown(function(ev){
+		if (ev.shiftKey && ev.which == 9) {
+			$("#continueLink").focus();
+			ev.preventDefault();
+		} else if (ev.which == 27) {
+			$("#modalExit").click();
+		}
+	});
+	$("#continueLink").keydown(function(ev){
+		if (ev.which == 9) {
+			$("#modalExit").focus();
+			ev.preventDefault();
+		}
+	});
+}
+
+function modalExit() { // Only need it for this particular modal
+	$("body").removeClass("modalActive");
+	$('.page').removeAttr('aria-hidden');
+	$("#newModal").attr("aria-hidden","true");
+	var modal = document.getElementsByClassName('modalBack');
+	document.body.removeChild(modal[0]);
+	//$('.modalBack').css('display', 'none');
+	$('#exitLink').removeAttr('disabled').focus();
+}
+function setAttributes(el, attrs) {
+ for(var key in attrs) {
+   el.setAttribute(key, attrs[key]);
+ }
+}
+
+var modalExitMsg = {
+	'heading' : 'You are leaving this website.',
+	'body' : 'You are leaving xxxxxxx.com and entering a website that we do not control.we has provided this link for your convenience, but does not endorse and is not responsible for the content, links, privacy policy, or security policy of this website.',
+	'close' : 'Close',
+	'closeLink' : 'Cancel',
+	'continue' : 'Continue',
+	'href' : 'http://brokercheck.finra.org'
+};
+
+function modalDiv(){
+	var windowHeight = window.pageYOffset;
+	var modalMargin = windowHeight + 200;//new
+	console.log(modalMargin);//new
+	var modal = document.createElement('div');
+	modal.setAttribute('class', 'modalBack');
+	var modalBody = document.createElement('div');
+	setAttributes(modalBody, {'id':'newModal', 'class':'modalInner', 'role':'dialog', 'aria-labeledby':'modalHeader', 'aria-describedby': 'modalText', 'tabindex' : '0'});
+	modal.appendChild(modalBody);
+	var modalTop = document.createElement('div');
+	modalTop.className = 'modalTop';
+	modalBody.appendChild(modalTop);
+	var logoImg = document.createElement('img');
+
+	modalTop.appendChild(logoImg);
+	var modalCloseBtn = document.createElement('button');
+	setAttributes(modalCloseBtn, {'id':'modalExit', 'class': 'modalClose', 'onclick':'modalExit();'});
+	modalCloseBtn.appendChild(document.createTextNode(modalExitMsg.close));
+	modalTop.appendChild(modalCloseBtn);
+	var modalBottom = document.createElement('div');
+	modalBottom.className = 'modalBottom';
+	var modalHeader = document.createElement('h1');
+	setAttributes(modalHeader, {'class':'h-topHeading', 'id':'modalHeader', 'tabindex':'-1'});
+	modalHeader.appendChild(document.createTextNode(modalExitMsg.heading));
+	modalText = document.createElement('p');
+	setAttributes(modalText, {'id':'modalText', 'tabindex':'-1'});
+	modalText.appendChild(document.createTextNode(modalExitMsg.body));
+	modalBottom.appendChild(modalHeader);
+	modalBottom.appendChild(modalText);
+	modalBody.appendChild(modalBottom);
+	var modalLinks = document.createElement('div');
+	modalLinks.className = 'textRight';
+	var cancelLink = document.createElement('button');
+	setAttributes(cancelLink, {'class':'inlineLink', 'onclick':'modalExit();', 'id':'cancelLink'});
+	cancelLink.appendChild(document.createTextNode('Cancel'));
+	var continueLink = document.createElement('a');
+	setAttributes(continueLink, {'class':'buttonPrimary marginLeft', 'href':modalExitMsg.href, 'target':'_blank', 'onclick':'modalExit();','id':'continueLink'});
+	continueLink.appendChild(document.createTextNode('Continue'));
+	modalLinks.appendChild(cancelLink);
+	modalLinks.appendChild(continueLink);
+	modalBottom.appendChild(modalLinks);
+	if(window.matchMedia('(min-width: 37.5em)').matches){
+		 modalBody.setAttribute('style', 'margin-top:' + modalMargin + 'px');
+	}else{
+		modalBody.setAttribute('style', 'margin-top:'+windowHeight+'px');
+	}
+	document.body.insertBefore(modal, document.body.childNodes[0]);
+	enableModal();
+	document.getElementById('modalExit').focus();
+}
+$(function () {
+
+	if(document.getElementById('exitLink')){
+		document.getElementById('exitLink').addEventListener('click', function(e){
+				e.preventDefault();
+				e.stopPropagation();
+				modalDiv();
+				document.getElementById('continueLink').addEventListener('keydown', function(e){
+					if(e.keyCode===9){
+						e.preventDefault();
+						$('#modalExit').focus();
+					}
+				});
+				document.getElementById('modalExit').addEventListener('keydown', function(e){
+					if(e.keyCode===40){
+						e.preventDefault();
+						e.stopPropagation();
+						$('#modalHeader').focus();
+					}
+				});
+				document.getElementById('modalHeader').addEventListener('keydown', function(e){
+					if(e.keyCode===40){
+						e.preventDefault();
+						e.stopPropagation();
+						$('#modalText').focus();
+					}
+				});
+				document.getElementById('modalText').addEventListener('keydown', function(e){
+					if(e.keyCode===40){
+						e.preventDefault();
+						e.stopPropagation();
+						$('#cancelLink').focus();
+					}
+				});
+				document.getElementById('cancelLink').addEventListener('keydown', function(e){
+					if(e.keyCode===40){
+						e.preventDefault();
+						e.stopPropagation();
+						$('#continueLink').focus();
+					}
+				});
+		});
+	}
+});
+
+  </script>
+  <title>Testing a11y modal</title>
+</head>
+<body>
+  <a href ='http://mattjamesmedia.com' id="exitLink">Personal Site Modal Trigger <span aria-hidden="true">&#x27e9;</span></a>
+</body>
+</html>

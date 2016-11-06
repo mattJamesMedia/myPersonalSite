@@ -32,9 +32,9 @@ function hasScrolled() {
     evt.preventDefault();
     var imgPath = $(this).attr('href');
     var hiResImgPath = $(this).attr('rel');
-    var imgClass = $(this).attr('data');
+    var imgAlt = $(this).attr('alt');
     var oldImage = $('.feature img');
-    var newImage = $('<img src="' + imgPath + '" srcset="' + imgPath + ' 1x, ' + hiResImgPath + ' 2x" class="' + imgClass + '">');
+    var newImage = $('<img src="' + imgPath + '" srcset="' + imgPath + ' 1x, ' + hiResImgPath + ' 2x" alt="' + imgAlt + '">');
     newImage.hide();
     $('.feature').prepend(newImage);
     newImage.fadeIn(1000);
@@ -48,9 +48,9 @@ function hasScrolled() {
     $('.designThumbnail a').click(function (evt) {
     evt.preventDefault();
     var dsgPath = $(this).attr('href');
-    
+    var dsgAlt = $(this).attr('alt');
     var oldDsg = $('.designFeature img');
-    var newDsg = $('<img src="' + dsgPath + '">');
+    var newDsg = $('<img src="' + dsgPath + '" alt="' + dsgAlt + '">');
     newDsg.hide();
     $('.designFeature').prepend(newDsg);
     newDsg.fadeIn(1000);
