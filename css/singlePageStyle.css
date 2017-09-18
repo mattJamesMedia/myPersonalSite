@@ -1,57 +1,9 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
+/* line 4, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 * {
   box-sizing: border-box;
 }
 
+/* line 8, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 body {
   font-family: "Merriweather", serif;
   font-size: 105%;
@@ -66,11 +18,13 @@ body {
   background-attachment: fixed;
 }
 
+/* line 19, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 #main {
   top: 0px;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+/* line 24, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 header {
   height: 6em;
   display: flex;
@@ -87,6 +41,8 @@ header {
   z-index: 1000;
   transition: top 0.4s ease-in-out;
 }
+
+/* line 39, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 header ul.topNav {
   display: flex;
   justify-content: space-around;
@@ -97,39 +53,49 @@ header ul.topNav {
   width: 100%;
 }
 
+/* line 50, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 h1,
 h2 {
   font-size: 1.75em;
   font-family: "Montserrat", sans-serif;
 }
 
+/* line 58, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 a {
   text-decoration: none;
   color: white;
 }
+
+/* line 61, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 a:hover, a:active {
   text-decoration: underline;
 }
 
+/* line 66, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .disc {
   list-style: disc;
   padding-left: .5em;
 }
 
+/* line 71, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 img {
   width: 100%;
   height: auto;
 }
 
+/* line 75, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .nav-up {
   top: -6em;
 }
 
+/* line 78, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .home {
   display: flex;
   justify-content: center;
   height: 100vh;
 }
+
+/* line 82, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .home .homeSection {
   width: 100%;
   margin-top: 10%;
@@ -138,9 +104,13 @@ img {
   flex-flow: column nowrap;
   align-items: center;
 }
+
+/* line 90, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .home .homeSection h2 {
   text-shadow: 1px 1px 5px #30e3f6;
 }
+
+/* line 93, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .home .homeSection ul.topNav {
   margin: .75em;
   display: flex;
@@ -149,6 +119,8 @@ img {
   font-size: 1.5em;
   width: 100%;
 }
+
+/* line 97, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .home .homeSection .description {
   padding: 1em 2em;
   margin: 0 auto;
@@ -159,16 +131,19 @@ img {
   border-radius: 5px;
 }
 
+/* line 106, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .navDown {
   margin-top: auto;
   margin-bottom: 1em;
 }
 
+/* line 110, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .thin {
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
 }
 
+/* line 118, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .gallery,
 .photo,
 .designThumbnail, .photoThumbnail {
@@ -180,31 +155,39 @@ img {
   padding-right: 2em;
 }
 
+/* line 128, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .gallery.web {
   align-content: center;
 }
 
+/* line 131, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .gallery h2 {
   margin: 0 auto;
 }
 
+/* line 134, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .webBlock {
   flex: 1 0 100vw;
   padding: .75em;
 }
+
+/* line 137, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .webBlock p {
   background-color: black;
   padding: .75em;
 }
 
+/* line 142, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .photography {
   height: 46em;
 }
 
+/* line 145, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .design {
   height: 50em;
 }
 
+/* line 149, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .photography,
 .design {
   display: flex;
@@ -213,6 +196,8 @@ img {
   background-color: black;
   padding: 2em 0;
 }
+
+/* line 157, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .photography .photoThumbnail img, .photography .designThumbnail img,
 .design .photoThumbnail img,
 .design .designThumbnail img {
@@ -223,17 +208,22 @@ img {
   width: 4em;
   height: 4em;
 }
+
+/* line 164, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .photography .photoThumbnail img:hover, .photography .designThumbnail img:hover,
 .design .photoThumbnail img:hover,
 .design .designThumbnail img:hover {
   opacity: 0.9;
 }
 
+/* line 171, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .feature,
 .designFeature {
   position: relative;
   height: 65vh;
 }
+
+/* line 175, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .feature img,
 .designFeature img {
   background-color: white;
@@ -245,6 +235,7 @@ img {
   order: 1;
 }
 
+/* line 186, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .bio,
 .relevantLinks {
   padding: 1em;
@@ -253,6 +244,8 @@ img {
   box-shadow: 0 0 10px #34e4f6;
   border-radius: 5px;
 }
+
+/* line 191, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .bio h3,
 .relevantLinks h3 {
   padding-left: .5em;
@@ -260,15 +253,19 @@ img {
   font-size: 1.3em;
   margin-bottom: .75em;
 }
+
+/* line 197, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .bio a,
 .relevantLinks a {
   color: #35e4f6;
 }
 
+/* line 201, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .relevantLinks {
   margin-top: 1em;
 }
 
+/* line 204, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .personalInfo {
   display: flex;
   flex-flow: column nowrap;
@@ -277,6 +274,7 @@ img {
   margin: 1em;
 }
 
+/* line 213, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .bio img {
   width: 10em;
   height: 10em;
@@ -286,14 +284,18 @@ img {
   margin-right: 1em;
   border: 0 none;
 }
+
+/* line 222, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .bio p {
   margin-bottom: .75em;
 }
 
+/* line 227, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .alignRight {
   float: right;
 }
 
+/* line 231, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 footer {
   display: flex;
   flex-flow: wrap;
@@ -302,15 +304,19 @@ footer {
   color: white;
   background-color: black;
 }
+
+/* line 239, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 footer p {
   margin: 0 auto;
 }
 
+/* line 244, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .socialLinks {
   display: flex;
   margin: 1em auto;
 }
 
+/* line 249, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 .icon {
   flex: 1 0 10%;
   margin-right: 1em;
@@ -319,98 +325,115 @@ footer p {
   fill: white;
 }
 
+/* line 258, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 svg.fa:hover {
   fill: #3b5998;
 }
 
+/* line 264, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 svg.tw:hover {
   fill: #00aced;
 }
 
+/* line 270, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 svg.li:hover {
   fill: #007bb6;
 }
 
+/* line 276, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 svg.gp:hover {
   fill: #dd4b39;
 }
 
+/* line 282, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 svg.gh:hover {
   fill: #34e4f6;
 }
 
+/* line 287, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 svg.cp {
   stroke: white;
 }
+
+/* line 289, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
 svg.cp:hover {
   stroke: #34e4f6;
 }
 
 /*------------------------------------------media queries---------------------*/
 @media screen and (min-width: 29em) {
+  /* line 296, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   footer p {
     margin-left: 1em;
     display: block;
   }
+  /* line 300, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   footer .socialLinks {
     align-self: flex-end;
     margin: 0 0 0 auto;
   }
-
+  /* line 305, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   .design {
     height: 55em;
   }
 }
+
 @media screen and (min-width: 44em) {
+  /* line 311, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   header {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
   }
+  /* line 315, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   header h1 {
     font-size: 2em;
     flex: 2 0 auto;
     margin-left: 1em;
   }
+  /* line 321, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   header ul.topNav {
     justify-content: space-around;
     margin-top: 1em;
     flex: 1 1 35%;
   }
-
+  /* line 329, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   .home .homeSection {
     width: 95%;
     margin-top: 15%;
     align-items: center;
     line-height: 2.5em;
   }
+  /* line 334, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   .home .homeSection h2 {
     font-size: 2.5em;
   }
+  /* line 337, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   .home .homeSection ul.topNav {
     font-size: 2em;
   }
-
+  /* line 343, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   .gallery {
     height: 60em;
   }
-
+  /* line 346, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   .photography,
   .design {
     margin-top: 6em;
   }
+  /* line 350, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   .photography .photoThumbnail img, .photography .designThumbnail img,
   .design .photoThumbnail img,
   .design .designThumbnail img {
     width: 8em;
     height: 8em;
   }
-
+  /* line 356, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   .webBlock {
     flex-basis: auto;
     width: 32%;
   }
-
+  /* line 362, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   .feature img,
   .designFeature img {
     left: 15%;
@@ -419,49 +442,54 @@ svg.cp:hover {
     width: 70%;
     order: 1;
   }
-
+  /* line 371, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   .personalInfo {
     display: flex;
     align-items: stretch;
     flex-direction: row;
     margin: 25em 1em;
   }
-
+  /* line 377, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   .bio,
   .relevantLinks {
     flex: 1 0 48%;
   }
-
+  /* line 381, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   .relevantLinks {
     margin-top: 0;
     margin-left: 1em;
   }
-
+  /* line 387, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
 }
+
 @media screen and (min-width: 53em) {
+  /* line 395, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   body {
     background-image: url("../img/homeBackground.jpg");
     background-size: cover;
     background-attachment: fixed;
   }
-
+  /* line 401, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   .home .homeSection {
     width: 70%;
   }
+  /* line 404, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   .home .homeSection h2 {
     font-size: 3.5em;
   }
 }
+
 @media screen and (min-width: 64em) {
+  /* line 412, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   .gallery.design {
     min-height: 70em;
   }
-
+  /* line 417, /Users/mattjames/Documents/personalSite/sass/singlePageStyle.scss */
   .feature, .designFeature {
     height: 70vh;
   }
